@@ -36,7 +36,7 @@ The Alexa Weather Informer is an Alexa Skill designed to provide users with real
 ## Cloning the Repository:
 
 ```
-git clone https://github.com/Tish-FS/Alexa_Weather_Informer.git
+git clone https://github.com/DiFrescoTisha-FS/alexa_weather_app.git
 cd Alexa_Weather_Informer/lambda
 ```
 
