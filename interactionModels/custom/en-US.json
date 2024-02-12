@@ -1,0 +1,41 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "City",
+              "type": "AMAZON.US_CITY"
+            }
+          ],
+          "name": "GetWeatherIntent",
+          "samples": [
+            "What\u0027s the weather like in {City}",
+            "Tell me the weather in {City}",
+            "Is it going to rain in {City}",
+            "What\u0027s the forecast for {City}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "weather informer"
+    }
+  }
+}
